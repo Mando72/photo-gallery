@@ -7,5 +7,14 @@
 </ion-header>
 
 <ion-content padding>
+  <img [src]="currentImage" *nglf="currentImage">
+
+  <ion-fab center bottom>
+    <button ionfab (click)="takePicture()" )>
+      <ion-icon name="camera">
+
+      </ion-icon>
+    </button>
+  </ion-fab>
 
 </ion-content>
